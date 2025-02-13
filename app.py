@@ -5,7 +5,7 @@ import pandas as pd
 
 # Cargar el modelo y el escalador
 scaler = joblib.load("escalador.bin")
-model = joblib.load("modelo_knn.pkl")
+model = joblib.load("modelo_knn.bin")
 
 # Configuración de la aplicación
 st.title("Asistente AI para Cardiólogos")
